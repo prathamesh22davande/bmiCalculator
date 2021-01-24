@@ -205,7 +205,7 @@ class _ParameterState extends State<Parameter> {
           Expanded(
             child: Column(
               children: [
-                Text('Age',style: TextStyle(color:Color(0xffa0f0bc) ),),
+                Text('Age (Years)',style: TextStyle(color:Color(0xffa0f0bc) ),),
                  Container(
                   child:  TextField(
 
@@ -239,7 +239,7 @@ class _ParameterState extends State<Parameter> {
           Expanded(
             child: Column(
               children: [
-                Text('Height',style: TextStyle(color:Color(0xffa0f0bc) ),),
+                Text('Height (cm)',style: TextStyle(color:Color(0xffa0f0bc) ),),
                 Container(
                   
                   child:  TextField(
@@ -272,7 +272,7 @@ class _ParameterState extends State<Parameter> {
           Expanded(
             child: Column(
               children: [
-                Text('Weight',style: TextStyle(color:Color(0xffa0f0bc) ),),
+                Text('Weight (kg)',style: TextStyle(color:Color(0xffa0f0bc) ),),
                 Container(
                   child:  TextField(
                     onChanged: (value){
